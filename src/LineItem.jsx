@@ -18,4 +18,4 @@ const LineItem = ({ item, handleCheck, handleDelete }) => {
   )
 }
 
-export default LineItem
+export default LineItem;
