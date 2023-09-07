@@ -1,5 +1,4 @@
 import React from 'react'
-
 import LineItem from './LineItem';
 
 const ItemList = ( { items, handleCheck, handleDelete } ) => {
@@ -11,10 +10,9 @@ const ItemList = ( { items, handleCheck, handleDelete } ) => {
                     item={item}
                     handleCheck={handleCheck}
                     handleDelete={handleDelete} 
-                    />
-           
-                    ))}
-                </ul>
+                />
+            ))}
+        </ul>
     )
 }
 
