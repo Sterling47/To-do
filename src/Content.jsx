@@ -3,7 +3,7 @@ import { FaTrashAlt } from 'react-icons/fa';
 
 const Content = ({ items, handleCheck, handleDelete }) => {
     return (
-        <main>
+        <>
             {items.length ? (
                 <ul>
                     {items.map((item) => (
@@ -25,7 +25,7 @@ const Content = ({ items, handleCheck, handleDelete }) => {
             ) : (
                 <p style={{ marginTOp: '2rem'}}>Your list is empty.</p>
             )}  
-        </main>
+        </>
     )
 }
 
