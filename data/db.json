@@ -1,24 +1,29 @@
 {
   "items": [
     {
-      "id": 3,
+      "id": 1,
       "checked": false,
-      "item": "turkey bacon"
+      "item": "pizza"
     },
     {
-      "id": 5,
+      "id": 2,
       "checked": false,
       "item": "eggs"
     },
     {
-      "id": 7,
+      "id": 3,
       "checked": false,
-      "item": "peanut"
+      "item": "tofu"
     },
     {
-      "id": 8,
+      "id": 4,
       "checked": false,
-      "item": "peanuts"
+      "item": "hummus"
+    },
+    {
+      "id": 5,
+      "checked": false,
+      "item": "celery"
     }
   ]
 }
